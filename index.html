@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiman's Glass Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <header class="glass">
+        <div class="logo">Aiman Abbasi.</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero glass">
+            <h1>Hello, I'm Aiman Abbasi</h1>
+            <p>Software Engineering student passionate about creating beautiful, functional web experiences with modern technologies.</p>
+            <a href="#contact" class="btn">Get in touch</a>
+        </section>
+
+        <section id="about" class="glass">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="pic.jpeg" alt="Aiman Abbasi" class="profile-img">
+                <div>
+                    <p>I'm a Bachelor's student in Software Engineering at International Islamic University Islamabad, currently in my 6th semester. I specialize in full-stack web development with a focus on creating efficient, scalable applications.</p>
+                    <p>My approach combines technical expertise with clean design principles to build digital products that are both powerful and user-friendly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="glass">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="glass">
+            <h2>Featured Project</h2>
+            <div class="project-card glass" style="padding: 2rem;">
+                <h3>Botanical Lab E-commerce</h3>
+                <p>A fully functional flower shop web application built with Node.js, Express, and MongoDB.</p>
+                <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                    <li>Implemented authentication system</li>
+                    <li>Product listings with search functionality</li>
+                    <li>Shopping cart system</li>
+                    <li>Responsive design</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="glass">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
